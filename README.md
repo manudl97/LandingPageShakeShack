@@ -12,7 +12,7 @@ This was part of a college task, we were given a wireframe and had to replicate 
 
 <h2>Wire-Frame to replicate:</h2>
 
-<img src="https://i.imgur.com/KOd9dEY.png" height="80%" width="80%" alt="Home"/>
+<img src="https://i.imgur.com/KOd9dEY.png" height="80%" width="80%"/>
 <br />
 
 
