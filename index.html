@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <title>Shake Shack</title>
+
+<body>
+<!-- Navegador principal -->
+<header id="barraNavLogo">
+    <a href="#" id="logo">
+      <figure>
+      <img src="./img/iconpng.png" alt="Shake Shack Logo">
+      </figure>
+    </a>
+
+    <nav id="navbar">
+      <ul >
+        <li><a href="#menu">MENÚ</a></li>
+        <li><a href="#fotosGrid">FOTOS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+</header>
+<!-- Fin Navegador principal -->
+
+<main>
+<!-- Seccion imagen y texto principal -->
+<section id="coverPhoto">
+  <section id="txtCover">
+    <h1>Haz tu pedido en linea</h1>
+    <p>Disponemos de varias formas de pago para la compra de nuestros deliciosos platos.</p>
+    <nav id="navTxtCover"><a href="#pedir">PEDIR AHORA</a></nav>
+  </section>
+</section>
+<!-- Fin seccion imagen y texto principal -->
+
+<!-- Seccion imagenes circulares-->
+
+<section id="circulosMenu">
+  <article>
+    <figure>
+      <img src="./img/limonadas.jpeg" alt="Limonadas">
+    </figure>
+    <figure>
+      <img src="./img/milkshakes.jpg_large" alt="Milkshakes">
+    </figure>
+    <figure>
+      <img src="./img/hamb.jpeg" alt="Hamburguesa">
+    </figure>
+    <figure>
+      <img src="./img/fries.jpg_large" alt="Papas Fritas">
+    </figure>
+    <figure>
+      <img src="./img/helado.jpeg" alt="Helado">
+    </figure>
+    <figure>
+      <img src="./img/coffee.jpeg" alt="Cafe">
+    </figure>
+    <figure>
+      <img src="./img/hotdog.jpg_large" alt="Hotdog">
+    </figure>
+    <figure>
+      <img src="./img/combo.jpeg" alt="Combo">
+    </figure>
+  
+
+    <p>Bebidas</p>
+    <p>Milkshakes</p>
+    <p>Hamburguesas</p>
+    <p>Papas Fritas</p>
+    <p>Helados</p>
+    <p>Café</p>
+    <p>Hot Dogs</p>
+    <p>Combos</p>
+
+  </article>
+</section>
+
+<!-- Fin seccion imagenes circulares-->
+
+<!-- Seccion imagenes menu con aside-->
+
+
+<section id="menu">
+  <h1>MENU</h1>
+  <article id="menuUno">
+    <figure>
+      <img src="./img/hamburguesamenu.jpeg" alt="Hamburguesa en bandeja de shake shack"> 
+    </figure>
+    <h2>Hamburguesas</h2>
+    <p>Sencilla o doble. Lechuga, tomate, pepinillos o cebolla. </p>
+  </article>
+  
+  <article id="menuDos">
+    <figure>
+      <img src="./img/papasmenu.jpeg" alt="Papas fritas con queso en bandeja de shake shack">
+    </figure>
+    <h2>Acompanamientos</h2>
+    <p>Crujientes por fuera, suaves por dentro y la medida justa de sal.
+      De-li-cio-sas.</p>
+  </article>
+
+  <article id="menuTres">
+    <figure>
+      <img src="./img/heladomenu.jpeg" alt="Helados de Shake Shack">
+    </figure>
+    <h2>Postres</h2>
+    <p>Frozen custard mezclado a alta velocidad con mix-ins.</p>
+  </article>
+
+  <aside>
+    <h2>Mas vendidos</h2>
+    <ul>
+      <li>ShackBurger</li>
+      <li>SmokeShack</li>
+      <li>Chicken Bites</li>
+      <li>Hot Dog</li>
+      <li>Shack Stack</li>
+      <li>Sweet Tart O’ Mine</li>
+      <li>Shack Attack</li>
+    
+    </ul>
+  </aside>
+
+</section>
+<!-- Fin seccion imagenes menu con aside-->
+
+<!-- Seccion imagenes en grid-->
+<section id="fotosGrid">
+  <h1>FOTOS</h1>
+  <article id="fotoVertical1">
+    <figure>
+      <img src="./img/gridvertical1.jpeg" alt="Combo de Shake Shack">
+    </figure>
+  </article>
+
+
+  <article id="fotoHorizontal1">
+    <figure>
+      <img src="./img/gridhorizontal1.jpeg" alt="Local de frente de Shake Shack">
+    </figure>
+  </article>
+
+
+  <article id="fotoHorizontal2">
+    <figure>
+      <img src="./img/gridhorizontal2.jpeg" alt="Bandeja con combo Shake Shack">
+    </figure>
+  </article>
+
+
+  <article id="fotoVertical2">
+    <figure>
+      <img src="./img/gridvertical2.jpeg" alt="Bandeja con combo Shake Shack">
+    </figure>
+  </article>
+
+
+</section>
+
+<!-- Fin seccion imagenes en grid-->
+
+<!-- Seccion formulario e img-->
+
+<section id="contacto">
+  <h1>CONTACTO</h1>
+  
+    <form action="#">
+     
+      <input id="nombreCompleto" type="text" placeholder="Nombre Completo*" required>
+      <input id="email" type="email" placeholder="E-mail*" required>
+     
+       <select id="pais" name="pais" required>
+          <option value="" disabled selected>Selecciona tu pais</option>
+          <optgroup label="America Sur">
+            <option value="ARG">Argentina</option>
+            <option value="BRA">Brasil</option>
+            <option value="CHI">Chile</option>
+            <option value="URU">Uruguay</option>
+            <option value="PY">Paraguay</option>
+          </optgroup>
+          <optgroup label="Europa">
+            <option value="ESP">Espana</option>
+            <option value="ING">Inglaterra</option>
+            <option value="POR">Portugal</option>
+          </optgroup>
+        </select>
+     
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje" required></textarea>
+        <input id="btnForm" type="submit" value="ENVIAR"> 
+    </form>
+
+
+  <article id="imagenContacto">
+    <figure>
+      <img src="./img/formimage.jpeg" alt="Locacion Shake Shack">
+    </figure>
+  </article>
+
+</section>
+
+</main>
+<!-- Inicio footer -->
+<footer>
+<h3>Seguinos en</h3>
+<nav>
+  <ul>
+    <li id="fb">
+      <a href="#fb"><img src="./img/fb.png" alt="Icono Facebook"></a>
+    </li>
+    <li id="twitter">
+      <a href="#tw"><img src="./img/twitter.png" alt="Icono Twitter"></a>
+    </li>
+  </ul>
+</nav>
+
+</footer>
+<!-- Fin footer -->
+
+</body> 
+</html>

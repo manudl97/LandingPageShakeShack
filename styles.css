@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Navegador principal */
+#barraNavLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#logo,
+#navbar {
+  width: 600px;
+}
+
+#barraNavLogo figure img {
+  width: 10%;
+  border-radius: 10px;
+}
+
+#barraNavLogo figure {
+  text-align: left;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar ul li a:hover {
+  background-color: greenyellow;
+}
+
+/* Fin Navegador principal */
+
+/* Seccion imagen y texto principal  */
+
+#coverPhoto section {
+  width: 1200px;
+}
+
+#coverPhoto {
+  background-image: url(./img/90722955_10163217217630182_1163896718006157312_n.jpeg);
+  min-height: 500px;
+  max-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txtCover h1 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}
+
+#txtCover p {
+  text-align: center;
+  font-size: 25px;
+}
+#coverPhoto {
+  text-align: center;
+}
+
+#txtCover nav {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#txtCover nav a {
+  background-color: green;
+  color: black;
+  width: 140px;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Fin seccion imagen y texto principal  */
+
+/* Seccion imagenes circulares */
+
+#circulosMenu article {
+  display: grid;
+  grid-template-columns: repeat(8, 150px);
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#circulosMenu article figure {
+  justify-self: center;
+}
+
+#circulosMenu article figure img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+#circulosMenu p {
+  font-size: 20px;
+}
+
+/* Fin seccion imagenes circulares */
+
+/* Seccion imagenes menu con aside */
+
+#menu {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: 30px 250px;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#menu article figure {
+  margin-top: 10px;
+}
+
+#menu article figure img {
+  width: 280px;
+  height: 150px;
+}
+
+#menu h1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  text-align: left;
+}
+
+#menu p,
+h2 {
+  margin-top: 10px;
+}
+
+#menuUno {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#menuDos {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#menuTres {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+#menu aside {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  border-color: green;
+  border-width: thin;
+  border-style: solid;
+}
+
+#menu aside h2 {
+  margin-top: 10px;
+}
+
+#menu aside ul li {
+  margin: 10px;
+  text-align: left;
+  margin-left: 80px;
+  list-style: image url(./img/hamburgericon.png);
+}
+
+/* Fin seccion imagenes menu con aside */
+
+/* Seccion imagenes en grid */
+
+#fotosGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 385px);
+  grid-template-rows: 30px 200px 200px;
+  justify-content: center;
+  margin-top: 60px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+#fotosGrid h1 {
+  text-align: left;
+}
+
+#fotoVertical1 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+#fotoHorizontal1 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#fotoHorizontal2 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#fotoVertical2 {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+#fotoVertical1 figure img,
+#fotoVertical2 figure img {
+  width: 385px;
+  height: 420px;
+}
+
+#fotoHorizontal1 figure img,
+#fotoHorizontal2 figure img {
+  width: 385px;
+  height: 200px;
+}
+
+/* Fin seccion imagenes en grid */
+
+/* Seccion formulario e img- */
+
+#contacto {
+  display: grid;
+  grid-template-columns: 280px 430px 430px;
+  grid-template-rows: 450px;
+  justify-content: center;
+  margin-top: 60px;
+  grid-column-gap: 30px;
+  background-color: black;
+}
+
+#contacto form {
+  justify-content: left;
+  background-color: black;
+  grid-column: 2/3;
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+
+#contacto form input,
+select,
+textarea {
+  display: block;
+  border: 1px solid white;
+
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+#contacto form textarea {
+  height: 90px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
+}
+
+select {
+  color: white;
+}
+
+#contacto form input[type="submit"] {
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  width: 135px;
+  height: 35px;
+  font-size: 15px;
+}
+
+#contacto form input[type="submit"]:hover {
+  background-color: green;
+}
+
+#contacto h1 {
+  color: white;
+  grid-column: 1/2;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#imagenContacto {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+#imagenContacto img {
+  width: 400px;
+  height: 400px;
+  grid-column: 3/4;
+}
+
+#contacto textarea {
+  resize: none;
+}
+
+/* Inicio footer */
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer h3 {
+  font-size: 30px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  list-style: none;
+}
+
+footer ul li {
+  margin: 10px;
+}
+
+footer img {
+  width: 40px;
+}
+/* Fin footer- */
